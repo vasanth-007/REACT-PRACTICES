@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    padding:0;
+    margin: 0;
+}
+nav{
+    background-color:#232F3E;
+}
+
+.watch-section div img{
+    border : 2px solid transparent;
+    transition : 0.5s;
+}
+.watch-section div img:hover{
+    border : 2px solid red;
+    box-shadow : 2px 2px 2px rgba(0,0,0,0.2),-2px -2px 2px rgba(0,0,0,0.2);
+    transition : 0.5s;
+}
+.watch-section div:hover img{
+    transform : scale(1.1,1.1);
+}
+.product{
+    position: relative;
+}
+.product-data{
+    position :absolute;
+    font-size: 43px;
+    color:white;
+    transform : translate(-200%,245%);
+}
+.btn button{
+    margin-left: 2px;
+}
